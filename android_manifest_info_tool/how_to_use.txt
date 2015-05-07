@@ -1,0 +1,9 @@
+How to use ?
+Change the android_manifest_info_tool/config_file with your credentials.
+
+Run the android_manifest_info_tool/google_play_client/gplay_downloader.py giving argument 
+as location for the config file.
+e.g: python android_manifest_info_tool/google_play_client/gplay_downloader.py -c "config_file.txt"
+
+In case you do not want to download any apk, just hardcode the apk path in 
+android_manifest_info_tool/google_play_client/Util.py.
